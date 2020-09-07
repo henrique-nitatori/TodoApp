@@ -1,11 +1,11 @@
 # TodoApp
-Curso ReactJs : 
-  frontEnd: {
-    "scripts": {
+# Curso ReactJs : 
+#  frontEnd: 
+#    "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "production": "webpack --progress -p"
     },
-    "devDependencies": {
+#    "devDependencies": {
     "axios": "0.15.3",
     "babel-core": "6.22.1",
     "babel-loader": "6.2.10",
@@ -28,20 +28,20 @@ Curso ReactJs :
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "1.16.2"
     }
-  }
-  backEnd: {
-    "scripts": {
+  
+#  backEnd: 
+#    "scripts": {
       "dev": "nodemon",
       "production": "pm2 start src/loader.js --name todo-app"
     },
-    "dependencies": {
+ #   "dependencies": {
     "body-parser": "1.15.2",
     "express": "4.14.0",
     "mongoose": "4.7.0",
     "node-restful": "0.2.5",
     "pm2": "2.1.5"
     },
-    "devDependencies": {
+  #  "devDependencies": {
       "nodemon": "1.11.0"
     }
-  }
+  
