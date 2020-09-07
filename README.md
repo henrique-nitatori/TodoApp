@@ -1,5 +1,4 @@
 # TodoApp
-# Curso ReactJs
 #  frontEnd
 #    "scripts": 
     "dev": "webpack-dev-server --progress --colors --inline --hot",
